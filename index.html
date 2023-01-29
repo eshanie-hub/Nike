@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Nike air</h1>
+            <h2>Max 90</h2>
+        </header>
+       
+    <div class="container">
+        <div class="card">
+		
+			<h3 style="font-size:1.48vw; text-transform: uppercase; font-weight:bold; text-align:center">Colour</h3>
+			
+				<button class="one color" onclick="changeImage('img/1.png')"></button>
+				
+				
+				<button class="two color" onclick="changeImage('img/2.png')"></button>
+				
+				
+				<button class="three color" onclick="changeImage('img/3.png')"></button>
+				
+				
+				<button class="four color" onclick="changeImage('img/4.png')"></button>
+				
+		
+		
+	
+	</div>
+     
+        
+
+    <div class="content">
+	<img src="img/1.png" id="shoes">
+	
+	</div>
+</div>
+       
+
+</div>
+	
+    <script type= 'text/JavaScript'>
+		function changeImage(filename){
+			let img = document.querySelector("#shoes");
+			img.setAttribute("src", filename);
+		}
+		
+		
+		
+	
+		
+	
+	</script>
+    
+</body>
+</html>

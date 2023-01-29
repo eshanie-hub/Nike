@@ -1,0 +1,109 @@
+body{
+    background-image: url('img/bg.png');
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-size:cover;
+    height: 100vh;
+}
+.wrapper{
+    padding: 10px 100px;
+    
+}
+
+header{
+    text-align: center;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 200px;
+    margin:0;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 130px;
+    -webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 3px white;
+    text-transform: uppercase;
+    margin-top:-30px;
+}
+
+#shoes{
+		
+    width:1000px;
+    padding-top: 80px;
+    padding-left: -300px;
+    
+}
+
+.card{
+    margin-top: -2px;
+    width: 180px;
+    margin-left: 80px;
+    padding: 20px 40px;
+    
+    background: linear-gradient(
+      152deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+        
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    
+    
+    
+    
+}
+
+.card button{
+    
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 10% 10%;
+    background: #f00;
+    border-radius: 50%;
+    border-color: none;
+    transition: 1s;
+    
+}
+
+.color:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+
+
+
+.active{
+    border: 2px solid #7b808c;
+    transform: scale(1.2);
+}
+
+.card button.one{
+    background: conic-gradient(#14151c 0deg 90deg, #ffffff 90deg 270deg, #14151c 270deg 360deg);
+}
+
+.card button.two{
+    background: #7d7b77;
+}
+
+.card button.three{
+    background: #000000;
+}
+
+
+.card button.four{
+    background: #ffffff;
+}
+
+.container{
+    display: flex;
+    gap: 250px;
+    margin-top: -150px;
+}
